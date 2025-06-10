@@ -1,0 +1,67 @@
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\Сhemical Complex.exe.config
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\Сhemical Complex.exe
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\Сhemical Complex.pdb
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\ClosedXML.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\ClosedXML.Parser.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\ClosedXML.Report.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\DocumentFormat.OpenXml.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\DocumentFormat.OpenXml.Framework.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\EPPlus.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\EPPlus.Interfaces.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\ExcelNumberFormat.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\Microsoft.Bcl.HashCode.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\Microsoft.Data.Sqlite.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\MoreLinq.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\OxyPlot.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\OxyPlot.WindowsForms.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\RBush.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\SixLabors.Fonts.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\SQLitePCLRaw.batteries_v2.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\SQLitePCLRaw.core.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\SQLitePCLRaw.provider.winsqlite3.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\System.Buffers.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\System.ComponentModel.Annotations.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\System.Linq.Dynamic.Core.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\System.Memory.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\System.Numerics.Vectors.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\System.Security.Cryptography.Xml.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\ClosedXML.pdb
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\ClosedXML.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\ClosedXML.Parser.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\DocumentFormat.OpenXml.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\DocumentFormat.OpenXml.Framework.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\EPPlus.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\ExcelNumberFormat.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\Microsoft.Bcl.HashCode.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\Microsoft.Data.Sqlite.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\MoreLinq.pdb
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\MoreLinq.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\OxyPlot.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\OxyPlot.WindowsForms.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\RBush.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\SixLabors.Fonts.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\System.Buffers.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\System.Linq.Dynamic.Core.pdb
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\System.Linq.Dynamic.Core.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\System.Memory.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\System.Numerics.Vectors.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\System.Security.Cryptography.Xml.xml
+C:\Users\420pr\source\repos\Сhemical Complex\obj\Release\Сhemical Complex.csproj.AssemblyReference.cache
+C:\Users\420pr\source\repos\Сhemical Complex\obj\Release\Сhemical_Complex.AdminForm.resources
+C:\Users\420pr\source\repos\Сhemical Complex\obj\Release\Сhemical_Complex.EnterForm.resources
+C:\Users\420pr\source\repos\Сhemical Complex\obj\Release\Сhemical_Complex.MainForm.resources
+C:\Users\420pr\source\repos\Сhemical Complex\obj\Release\Сhemical_Complex.Properties.Resources.resources
+C:\Users\420pr\source\repos\Сhemical Complex\obj\Release\Сhemical Complex.csproj.GenerateResource.cache
+C:\Users\420pr\source\repos\Сhemical Complex\obj\Release\Сhemical Complex.csproj.CoreCompileInputs.cache
+C:\Users\420pr\source\repos\Сhemical Complex\obj\Release\_hemical.FB47CD93.Up2Date
+C:\Users\420pr\source\repos\Сhemical Complex\obj\Release\Сhemical Complex.exe
+C:\Users\420pr\source\repos\Сhemical Complex\obj\Release\Сhemical Complex.pdb
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\Сhemical Complex.exe.manifest
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Release\Сhemical Complex.application
+C:\Users\420pr\source\repos\Сhemical Complex\obj\Release\Сhemical Complex.exe.manifest
+C:\Users\420pr\source\repos\Сhemical Complex\obj\Release\Сhemical Complex.application

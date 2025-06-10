@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="System"?>
+<database>
+    <name>ModellingComplexDB</name>
+    <table>
+        <database></database>
+        <name>__EFMigrationsHistory</name>
+        <ddl><![CDATA[CREATE TABLE "__EFMigrationsHistory" (
+            "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+            "ProductVersion" TEXT NOT NULL
+        )]]></ddl>
+        <columns>
+            <column>
+                <name>MigrationId</name>
+                <type>TEXT</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL </definition>
+                    </constraint>
+                    <constraint>
+                        <type>PRIMARY KEY</type>
+                        <definition>PRIMARY KEY</definition>
+                    </constraint>
+                </constraints>
+            </column>
+            <column>
+                <name>ProductVersion</name>
+                <type>TEXT</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL
+                        </definition>
+                    </constraint>
+                </constraints>
+            </column>
+        </columns>
+        <rows>
+            <row>
+                <value column="0">20240429005354_Overhaul</value>
+                <value column="1">8.0.4</value>
+            </row>
+            <row>
+                <value column="0">20240429092812_Try</value>
+                <value column="1">8.0.4</value>
+            </row>
+            <row>
+                <value column="0">20240429191401_RemoveId</value>
+                <value column="1">8.0.4</value>
+            </row>
+            <row>
+                <value column="0">20240504185625_Overhaul2</value>
+                <value column="1">8.0.4</value>
+            </row>
+            <row>
+                <value column="0">20240504195304_DataTypesChanged</value>
+                <value column="1">8.0.4</value>
+            </row>
+            <row>
+                <value column="0">20240505010303_Making</value>
+                <value column="1">8.0.4</value>
+            </row>
+        </rows>
+    </table>
+    <table>
+        <database></database>
+        <name>EmpiricCoefficients</name>
+        <ddl><![CDATA[CREATE TABLE "EmpiricCoefficients" (
+            "Id" INTEGER NOT NULL CONSTRAINT "PK_EmpiricCoefficients" PRIMARY KEY AUTOINCREMENT,
+            "Chars" varchar(20) NOT NULL,
+            "Name" varchar(100) NOT NULL,
+            "UnitsId" INTEGER NOT NULL,
+            CONSTRAINT "FK_EmpiricCoefficients_Units_UnitsId" FOREIGN KEY ("UnitsId") REFERENCES "Units" ("Id") ON DELETE CASCADE
+        )]]></ddl>
+        <columns>
+            <column>
+                <name>Id</name>
+                <type>INTEGER</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL </definition>
+                    </constraint>
+                    <constraint>
+                        <type>PRIMARY KEY</type>
+                        <definition>PRIMARY KEY AUTOINCREMENT</definition>
+                    </constraint>
+                </constraints>
+            </column>
+            <column>
+                <name>Chars</name>
+                <type>varchar</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL</definition>
+                    </constraint>
+                </constraints>
+            </column>
+            <column>
+                <name>Name</name>
+                <type>varchar</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL</definition>
+                    </constraint>
+                </constraints>
+            </column>
+            <column>
+                <name>UnitsId</name>
+                <type>INTEGER</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL</definition>
+                    </constraint>
+                </constraints>
+            </column>
+        </columns>
+        <constraints>
+            <constraint>
+                <type>FOREIGN KEY</type>
+                <definition>FOREIGN KEY (&quot;UnitsId&quot;) REFERENCES &quot;Units&quot; (&quot;Id&quot;) ON DELETE CASCADE
+                </definition>
+            </constraint>
+        </constraints>
+        <rows>
+            <row>
+                <value column="0">1</value>
+                <value column="1">mu0</value>
+                <value column="2">Коэффициент консистенции материала при температуре приведения</value>
+                <value column="3">6</value>
+            </row>
+            <row>
+                <value column="0">2</value>
+                <value column="1">C1g</value>
+                <value column="2">Первая константа уравнения ВЛФ при температуре стеклования материала</value>
+                <value column="3">1</value>
+            </row>
+            <row>
+                <value column="0">3</value>
+                <value column="1">C2g</value>
+                <value column="2">Вторая константа уравнения ВЛФ при температуре стеклования материала</value>
+                <value column="3">1</value>
+            </row>
+            <row>
+                <value column="0">4</value>
+                <value column="1">Tr</value>
+                <value column="2">Температура приведения</value>
+                <value column="3">4</value>
+            </row>
+            <row>
+                <value column="0">5</value>
+                <value column="1">n</value>
+                <value column="2">Индекс течения материала</value>
+                <value column="3">1</value>
+            </row>
+            <row>
+                <value column="0">6</value>
+                <value column="1">au</value>
+                <value column="2">Коэффициент теплоотдачи от крышки канала к материалу</value>
+                <value column="3">7</value>
+            </row>
+        </rows>
+    </table>
+    <table>
+        <database></database>
+        <name>MaterialEmpiricBinds</name>
+        <ddl><![CDATA[CREATE TABLE "MaterialEmpiricBinds" (
+            "Id" INTEGER NOT NULL CONSTRAINT "PK_MaterialEmpiricBinds" PRIMARY KEY AUTOINCREMENT,
+            "PropertyId" INTEGER NOT NULL,
+            "MaterialId" INTEGER NOT NULL,
+            "Value" REAL NOT NULL,
+            CONSTRAINT "FK_MaterialEmpiricBinds_EmpiricCoefficients_PropertyId" FOREIGN KEY ("PropertyId") REFERENCES "EmpiricCoefficients" ("Id") ON DELETE CASCADE,
+            CONSTRAINT "FK_MaterialEmpiricBinds_Materials_MaterialId" FOREIGN KEY ("MaterialId") REFERENCES "Materials" ("Id") ON DELETE CASCADE
+        )]]></ddl>
+        <columns>
+            <column>
+                <name>Id</name>
+                <type>INTEGER</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL </definition>
+                    </constraint>
+                    <constraint>
+                        <type>PRIMARY KEY</type>
+                        <definition>PRIMARY KEY AUTOINCREMENT</definition>
+                    </constraint>
+                </constraints>
+            </column>
+            <column>
+                <name>PropertyId</name>
+                <type>INTEGER</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL</definition>
+                    </constraint>
+                </constraints>
+            </column>
+            <column>
+                <name>MaterialId</name>
+                <type>INTEGER</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL</definition>
+                    </constraint>
+                </constraints>
+            </column>
+            <column>
+                <name>Value</name>
+                <type>REAL</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL</definition>
+                    </constraint>
+                </constraints>
+            </column>
+        </columns>
+        <constraints>
+            <constraint>
+                <type>FOREIGN KEY</type>
+                <definition>FOREIGN KEY (&quot;PropertyId&quot;) REFERENCES &quot;EmpiricCoefficients&quot; (&quot;Id&quot;) ON DELETE CASCADE</definition>
+            </constraint>
+            <constraint>
+                <type>FOREIGN KEY</type>
+                <definition>FOREIGN KEY (&quot;MaterialId&quot;) REFERENCES &quot;Materials&quot; (&quot;Id&quot;) ON DELETE CASCADE
+                </definition>
+            </constraint>
+        </constraints>
+        <rows>
+            <row>
+                <value column="0">1</value>
+                <value column="1">1</value>
+                <value column="2">1</value>
+                <value column="3">11000</value>
+            </row>
+            <row>
+                <value column="0">2</value>
+                <value column="1">2</value>
+                <value column="2">1</value>
+                <value column="3">17.44</value>
+            </row>
+            <row>
+                <value column="0">3</value>
+                <value column="1">3</value>
+                <value column="2">1</value>
+                <value column="3">51.6</value>
+            </row>
+            <row>
+                <value column="0">4</value>
+                <value column="1">4</value>
+                <value column="2">1</value>
+                <value column="3">200</value>
+            </row>
+            <row>
+                <value column="0">5</value>
+                <value column="1">5</value>
+                <value column="2">1</value>
+                <value column="3">0.35</value>
+            </row>
+            <row>
+                <value column="0">6</value>
+                <value column="1">6</value>
+                <value column="2">1</value>
+                <value column="3">500</value>
+            </row>
+        </rows>
+    </table>
+    <table>
+        <database></database>
+        <name>MaterialPropertyBinds</name>
+        <ddl><![CDATA[CREATE TABLE "MaterialPropertyBinds" (
+            "Id" INTEGER NOT NULL CONSTRAINT "PK_MaterialPropertyBinds" PRIMARY KEY AUTOINCREMENT,
+            "Value" REAL NOT NULL,
+            "MaterialId" INTEGER NOT NULL,
+            "PropertyId" INTEGER NOT NULL,
+            CONSTRAINT "FK_MaterialPropertyBinds_Materials_MaterialId" FOREIGN KEY ("MaterialId") REFERENCES "Materials" ("Id") ON DELETE CASCADE,
+            CONSTRAINT "FK_MaterialPropertyBinds_Properties_PropertyId" FOREIGN KEY ("PropertyId") REFERENCES "Properties" ("Id") ON DELETE CASCADE
+        )]]></ddl>
+        <columns>
+            <column>
+                <name>Id</name>
+                <type>INTEGER</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL </definition>
+                    </constraint>
+                    <constraint>
+                        <type>PRIMARY KEY</type>
+                        <definition>PRIMARY KEY AUTOINCREMENT</definition>
+                    </constraint>
+                </constraints>
+            </column>
+            <column>
+                <name>Value</name>
+                <type>REAL</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL</definition>
+                    </constraint>
+                </constraints>
+            </column>
+            <column>
+                <name>MaterialId</name>
+                <type>INTEGER</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL</definition>
+                    </constraint>
+                </constraints>
+            </column>
+            <column>
+                <name>PropertyId</name>
+                <type>INTEGER</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL</definition>
+                    </constraint>
+                </constraints>
+            </column>
+        </columns>
+        <constraints>
+            <constraint>
+                <type>FOREIGN KEY</type>
+                <definition>FOREIGN KEY (&quot;MaterialId&quot;) REFERENCES &quot;Materials&quot; (&quot;Id&quot;) ON DELETE CASCADE</definition>
+            </constraint>
+            <constraint>
+                <type>FOREIGN KEY</type>
+                <definition>FOREIGN KEY (&quot;PropertyId&quot;) REFERENCES &quot;Properties&quot; (&quot;Id&quot;) ON DELETE CASCADE
+                </definition>
+            </constraint>
+        </constraints>
+        <rows>
+            <row>
+                <value column="0">1</value>
+                <value column="1">1600</value>
+                <value column="2">1</value>
+                <value column="3">1</value>
+            </row>
+            <row>
+                <value column="0">2</value>
+                <value column="1">1200</value>
+                <value column="2">1</value>
+                <value column="3">2</value>
+            </row>
+            <row>
+                <value column="0">3</value>
+                <value column="1">101</value>
+                <value column="2">1</value>
+                <value column="3">3</value>
+            </row>
+            <row>
+                <value column="0">4</value>
+                <value column="1">170</value>
+                <value column="2">1</value>
+                <value column="3">4</value>
+            </row>
+        </rows>
+    </table>
+    <table>
+        <database></database>
+        <name>Materials</name>
+        <ddl><![CDATA[CREATE TABLE "Materials" (
+            "Id" INTEGER NOT NULL CONSTRAINT "PK_Materials" PRIMARY KEY AUTOINCREMENT,
+            "Name" varchar(100) NOT NULL
+        )]]></ddl>
+        <columns>
+            <column>
+                <name>Id</name>
+                <type>INTEGER</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL </definition>
+                    </constraint>
+                    <constraint>
+                        <type>PRIMARY KEY</type>
+                        <definition>PRIMARY KEY AUTOINCREMENT</definition>
+                    </constraint>
+                </constraints>
+            </column>
+            <column>
+                <name>Name</name>
+                <type>varchar</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL
+                        </definition>
+                    </constraint>
+                </constraints>
+            </column>
+        </columns>
+        <rows>
+            <row>
+                <value column="0">1</value>
+                <value column="1">Полистирол</value>
+            </row>
+        </rows>
+    </table>
+    <table>
+        <database></database>
+        <name>Properties</name>
+        <ddl><![CDATA[CREATE TABLE "Properties" (
+            "Id" INTEGER NOT NULL CONSTRAINT "PK_Properties" PRIMARY KEY AUTOINCREMENT,
+            "Chars" varchar(10) NOT NULL,
+            "Name" varchar(100) NOT NULL,
+            "UnitsId" INTEGER NOT NULL,
+            CONSTRAINT "FK_Properties_Units_UnitsId" FOREIGN KEY ("UnitsId") REFERENCES "Units" ("Id") ON DELETE CASCADE
+        )]]></ddl>
+        <columns>
+            <column>
+                <name>Id</name>
+                <type>INTEGER</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL </definition>
+                    </constraint>
+                    <constraint>
+                        <type>PRIMARY KEY</type>
+                        <definition>PRIMARY KEY AUTOINCREMENT</definition>
+                    </constraint>
+                </constraints>
+            </column>
+            <column>
+                <name>Chars</name>
+                <type>varchar</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL</definition>
+                    </constraint>
+                </constraints>
+            </column>
+            <column>
+                <name>Name</name>
+                <type>varchar</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL</definition>
+                    </constraint>
+                </constraints>
+            </column>
+            <column>
+                <name>UnitsId</name>
+                <type>INTEGER</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL</definition>
+                    </constraint>
+                </constraints>
+            </column>
+        </columns>
+        <constraints>
+            <constraint>
+                <type>FOREIGN KEY</type>
+                <definition>FOREIGN KEY (&quot;UnitsId&quot;) REFERENCES &quot;Units&quot; (&quot;Id&quot;) ON DELETE CASCADE
+                </definition>
+            </constraint>
+        </constraints>
+        <rows>
+            <row>
+                <value column="0">1</value>
+                <value column="1">Ro</value>
+                <value column="2">Плотность</value>
+                <value column="3">2</value>
+            </row>
+            <row>
+                <value column="0">2</value>
+                <value column="1">c</value>
+                <value column="2">Удельная теплоемкость</value>
+                <value column="3">3</value>
+            </row>
+            <row>
+                <value column="0">3</value>
+                <value column="1">Tg</value>
+                <value column="2">Температура стеклования</value>
+                <value column="3">4</value>
+            </row>
+            <row>
+                <value column="0">4</value>
+                <value column="1">T0</value>
+                <value column="2">Температура плавления</value>
+                <value column="3">4</value>
+            </row>
+        </rows>
+    </table>
+    <table>
+        <database></database>
+        <name>Roles</name>
+        <ddl><![CDATA[CREATE TABLE "Roles" (
+            "Id" INTEGER NOT NULL CONSTRAINT "PK_Roles" PRIMARY KEY AUTOINCREMENT,
+            "Name" varchar(25) NOT NULL
+        )]]></ddl>
+        <columns>
+            <column>
+                <name>Id</name>
+                <type>INTEGER</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL </definition>
+                    </constraint>
+                    <constraint>
+                        <type>PRIMARY KEY</type>
+                        <definition>PRIMARY KEY AUTOINCREMENT</definition>
+                    </constraint>
+                </constraints>
+            </column>
+            <column>
+                <name>Name</name>
+                <type>varchar</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL
+                        </definition>
+                    </constraint>
+                </constraints>
+            </column>
+        </columns>
+        <rows>
+            <row>
+                <value column="0">1</value>
+                <value column="1">admin</value>
+            </row>
+            <row>
+                <value column="0">2</value>
+                <value column="1">user</value>
+            </row>
+        </rows>
+    </table>
+    <table>
+        <database></database>
+        <name>Units</name>
+        <ddl><![CDATA[CREATE TABLE "Units" (
+            "Id" INTEGER NOT NULL CONSTRAINT "PK_Units" PRIMARY KEY AUTOINCREMENT,
+            "Name" varchar(20) NOT NULL
+        )]]></ddl>
+        <columns>
+            <column>
+                <name>Id</name>
+                <type>INTEGER</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL </definition>
+                    </constraint>
+                    <constraint>
+                        <type>PRIMARY KEY</type>
+                        <definition>PRIMARY KEY AUTOINCREMENT</definition>
+                    </constraint>
+                </constraints>
+            </column>
+            <column>
+                <name>Name</name>
+                <type>varchar</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL
+                        </definition>
+                    </constraint>
+                </constraints>
+            </column>
+        </columns>
+        <rows>
+            <row>
+                <value column="0">1</value>
+                <value column="1">-</value>
+            </row>
+            <row>
+                <value column="0">2</value>
+                <value column="1">кг/м^3</value>
+            </row>
+            <row>
+                <value column="0">3</value>
+                <value column="1">Дж/(кг*°С)</value>
+            </row>
+            <row>
+                <value column="0">4</value>
+                <value column="1">°С</value>
+            </row>
+            <row>
+                <value column="0">5</value>
+                <value column="1">м/с</value>
+            </row>
+            <row>
+                <value column="0">6</value>
+                <value column="1">Па·с^n</value>
+            </row>
+            <row>
+                <value column="0">7</value>
+                <value column="1">Вт/(м2*°С)</value>
+            </row>
+        </rows>
+    </table>
+    <table>
+        <database></database>
+        <name>UserAddMaterials</name>
+        <ddl><![CDATA[CREATE TABLE "UserAddMaterials" (
+            "Id" INTEGER NOT NULL CONSTRAINT "PK_UserAddMaterials" PRIMARY KEY AUTOINCREMENT,
+            "UserId" INTEGER NOT NULL,
+            "MaterialId" INTEGER NOT NULL,
+            CONSTRAINT "FK_UserAddMaterials_Materials_MaterialId" FOREIGN KEY ("MaterialId") REFERENCES "Materials" ("Id") ON DELETE CASCADE,
+            CONSTRAINT "FK_UserAddMaterials_Users_UserId" FOREIGN KEY ("UserId") REFERENCES "Users" ("Id") ON DELETE CASCADE
+        )]]></ddl>
+        <columns>
+            <column>
+                <name>Id</name>
+                <type>INTEGER</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL </definition>
+                    </constraint>
+                    <constraint>
+                        <type>PRIMARY KEY</type>
+                        <definition>PRIMARY KEY AUTOINCREMENT</definition>
+                    </constraint>
+                </constraints>
+            </column>
+            <column>
+                <name>UserId</name>
+                <type>INTEGER</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL</definition>
+                    </constraint>
+                </constraints>
+            </column>
+            <column>
+                <name>MaterialId</name>
+                <type>INTEGER</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL</definition>
+                    </constraint>
+                </constraints>
+            </column>
+        </columns>
+        <constraints>
+            <constraint>
+                <type>FOREIGN KEY</type>
+                <definition>FOREIGN KEY (&quot;MaterialId&quot;) REFERENCES &quot;Materials&quot; (&quot;Id&quot;) ON DELETE CASCADE</definition>
+            </constraint>
+            <constraint>
+                <type>FOREIGN KEY</type>
+                <definition>FOREIGN KEY (&quot;UserId&quot;) REFERENCES &quot;Users&quot; (&quot;Id&quot;) ON DELETE CASCADE
+                </definition>
+            </constraint>
+        </constraints>
+        <rows>
+            <row>
+                <value column="0">1</value>
+                <value column="1">1</value>
+                <value column="2">1</value>
+            </row>
+        </rows>
+    </table>
+    <table>
+        <database></database>
+        <name>Users</name>
+        <ddl><![CDATA[CREATE TABLE "Users" (
+            "Id" INTEGER NOT NULL CONSTRAINT "PK_Users" PRIMARY KEY AUTOINCREMENT,
+            "Name" varchar(50) NOT NULL,
+            "Password" varchar(150) NOT NULL,
+            "RoleId" INTEGER NOT NULL,
+            CONSTRAINT "FK_Users_Roles_RoleId" FOREIGN KEY ("RoleId") REFERENCES "Roles" ("Id") ON DELETE CASCADE
+        )]]></ddl>
+        <columns>
+            <column>
+                <name>Id</name>
+                <type>INTEGER</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL </definition>
+                    </constraint>
+                    <constraint>
+                        <type>PRIMARY KEY</type>
+                        <definition>PRIMARY KEY AUTOINCREMENT</definition>
+                    </constraint>
+                </constraints>
+            </column>
+            <column>
+                <name>Name</name>
+                <type>varchar</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL</definition>
+                    </constraint>
+                </constraints>
+            </column>
+            <column>
+                <name>Password</name>
+                <type>varchar</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL</definition>
+                    </constraint>
+                </constraints>
+            </column>
+            <column>
+                <name>RoleId</name>
+                <type>INTEGER</type>
+                <constraints>
+                    <constraint>
+                        <type>NOT NULL</type>
+                        <definition>NOT NULL</definition>
+                    </constraint>
+                </constraints>
+            </column>
+        </columns>
+        <constraints>
+            <constraint>
+                <type>FOREIGN KEY</type>
+                <definition>FOREIGN KEY (&quot;RoleId&quot;) REFERENCES &quot;Roles&quot; (&quot;Id&quot;) ON DELETE CASCADE
+                </definition>
+            </constraint>
+        </constraints>
+        <rows>
+            <row>
+                <value column="0">1</value>
+                <value column="1">admin</value>
+                <value column="2">8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918</value>
+                <value column="3">1</value>
+            </row>
+            <row>
+                <value column="0">3</value>
+                <value column="1">user</value>
+                <value column="2">04f8996da763b7a969b1028ee3007569eaf3a635486ddab211d512c85b9df8fb</value>
+                <value column="3">2</value>
+            </row>
+        </rows>
+    </table>
+    <index>
+        <database></database>
+        <name>IX_EmpiricCoefficients_UnitsId</name>
+        <ddl>CREATE INDEX &quot;IX_EmpiricCoefficients_UnitsId&quot; ON &quot;EmpiricCoefficients&quot; (&quot;UnitsId&quot;)</ddl>
+    </index>
+    <index>
+        <database></database>
+        <name>IX_MaterialEmpiricBinds_MaterialId</name>
+        <ddl>CREATE INDEX &quot;IX_MaterialEmpiricBinds_MaterialId&quot; ON &quot;MaterialEmpiricBinds&quot; (&quot;MaterialId&quot;)</ddl>
+    </index>
+    <index>
+        <database></database>
+        <name>IX_MaterialEmpiricBinds_PropertyId</name>
+        <ddl>CREATE INDEX &quot;IX_MaterialEmpiricBinds_PropertyId&quot; ON &quot;MaterialEmpiricBinds&quot; (&quot;PropertyId&quot;)</ddl>
+    </index>
+    <index>
+        <database></database>
+        <name>IX_MaterialPropertyBinds_MaterialId</name>
+        <ddl>CREATE INDEX &quot;IX_MaterialPropertyBinds_MaterialId&quot; ON &quot;MaterialPropertyBinds&quot; (&quot;MaterialId&quot;)</ddl>
+    </index>
+    <index>
+        <database></database>
+        <name>IX_MaterialPropertyBinds_PropertyId</name>
+        <ddl>CREATE INDEX &quot;IX_MaterialPropertyBinds_PropertyId&quot; ON &quot;MaterialPropertyBinds&quot; (&quot;PropertyId&quot;)</ddl>
+    </index>
+    <index>
+        <database></database>
+        <name>IX_Properties_UnitsId</name>
+        <ddl>CREATE INDEX &quot;IX_Properties_UnitsId&quot; ON &quot;Properties&quot; (&quot;UnitsId&quot;)</ddl>
+    </index>
+    <index>
+        <database></database>
+        <name>IX_UserAddMaterials_MaterialId</name>
+        <ddl>CREATE INDEX &quot;IX_UserAddMaterials_MaterialId&quot; ON &quot;UserAddMaterials&quot; (&quot;MaterialId&quot;)</ddl>
+    </index>
+    <index>
+        <database></database>
+        <name>IX_UserAddMaterials_UserId</name>
+        <ddl>CREATE INDEX &quot;IX_UserAddMaterials_UserId&quot; ON &quot;UserAddMaterials&quot; (&quot;UserId&quot;)</ddl>
+    </index>
+    <index>
+        <database></database>
+        <name>IX_Users_RoleId</name>
+        <ddl>CREATE INDEX &quot;IX_Users_RoleId&quot; ON &quot;Users&quot; (&quot;RoleId&quot;)</ddl>
+    </index>
+</database>

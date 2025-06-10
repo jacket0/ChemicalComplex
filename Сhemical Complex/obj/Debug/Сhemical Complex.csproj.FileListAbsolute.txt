@@ -1,0 +1,73 @@
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\Сhemical Complex.exe.config
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\Сhemical Complex.exe
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\Сhemical Complex.pdb
+C:\Users\420pr\source\repos\Сhemical Complex\obj\Debug\Сhemical Complex.csproj.AssemblyReference.cache
+C:\Users\420pr\source\repos\Сhemical Complex\obj\Debug\Сhemical_Complex.EnterForm.resources
+C:\Users\420pr\source\repos\Сhemical Complex\obj\Debug\Сhemical_Complex.Properties.Resources.resources
+C:\Users\420pr\source\repos\Сhemical Complex\obj\Debug\Сhemical Complex.csproj.GenerateResource.cache
+C:\Users\420pr\source\repos\Сhemical Complex\obj\Debug\Сhemical Complex.csproj.CoreCompileInputs.cache
+C:\Users\420pr\source\repos\Сhemical Complex\obj\Debug\Сhemical Complex.exe
+C:\Users\420pr\source\repos\Сhemical Complex\obj\Debug\Сhemical Complex.pdb
+C:\Users\420pr\source\repos\Сhemical Complex\obj\Debug\Сhemical_Complex.MainForm.resources
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\OxyPlot.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\OxyPlot.WindowsForms.xml
+C:\Users\420pr\source\repos\Сhemical Complex\obj\Debug\Сhemical_Complex.AdminForm.resources
+C:\Users\420pr\source\repos\Сhemical Complex\obj\Debug\_hemical.FB47CD93.Up2Date
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\Microsoft.Data.Sqlite.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\System.Buffers.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\System.Memory.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\EPPlus.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\System.Security.Cryptography.Xml.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\ClosedXML.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\ClosedXML.Parser.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\DocumentFormat.OpenXml.Framework.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\ExcelNumberFormat.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\MoreLinq.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\RBush.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\SixLabors.Fonts.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\System.Linq.Dynamic.Core.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\Сhemical Complex.exe.manifest
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\Сhemical Complex.application
+C:\Users\420pr\source\repos\Сhemical Complex\obj\Debug\Сhemical Complex.exe.manifest
+C:\Users\420pr\source\repos\Сhemical Complex\obj\Debug\Сhemical Complex.application
+C:\Users\420pr\source\repos\Сhemical Complex\obj\Debug\Сhemical_Complex.ExperimentForm.resources
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\MathNet.Numerics.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\ClosedXML.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\ClosedXML.Parser.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\ClosedXML.Report.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\Costura.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\DocumentFormat.OpenXml.Framework.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\EPPlus.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\ExcelNumberFormat.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\MathNet.Numerics.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\MoreLinq.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\OxyPlot.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\OxyPlot.WindowsForms.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\RBush.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\SixLabors.Fonts.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\SQLitePCLRaw.provider.winsqlite3.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\System.Buffers.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\System.Linq.Dynamic.Core.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\System.Memory.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\System.Security.Cryptography.Xml.dll
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\ClosedXML.pdb
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\Costura.pdb
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\Costura.xml
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\MoreLinq.pdb
+C:\Users\420pr\source\repos\Сhemical Complex\bin\Debug\System.Linq.Dynamic.Core.pdb

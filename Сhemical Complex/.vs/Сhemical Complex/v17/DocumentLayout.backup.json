@@ -1,0 +1,436 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\visualizationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|solutionrelative:visualizationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|c:\\users\\420pr\\source\\repos\\\u0441hemical complex\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\experimentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|solutionrelative:experimentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\experimentform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|solutionrelative:experimentform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\experimentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|solutionrelative:experimentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\enterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|solutionrelative:enterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\reportexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|solutionrelative:reportexporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\mathmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|solutionrelative:mathmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\experimentcorrectcontrolmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|solutionrelative:experimentcorrectcontrolmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\enterform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|solutionrelative:enterform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\correctcontrolmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|solutionrelative:correctcontrolmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\enterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|solutionrelative:enterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\databasemanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|solutionrelative:databasemanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|solutionrelative:adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|solutionrelative:adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|solutionrelative:settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\adminform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|solutionrelative:adminform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\efficiencymetricsmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|solutionrelative:efficiencymetricsmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\passwordmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|solutionrelative:passwordmanage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EE4D7209-3420-413D-9B75-BE9D5D212E90}|\u0421hemical Complex.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 164,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DatabaseManage.cs",
+              "DocumentMoniker": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\DatabaseManage.cs",
+              "RelativeDocumentMoniker": "DatabaseManage.cs",
+              "ToolTip": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\DatabaseManage.cs",
+              "RelativeToolTip": "DatabaseManage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T08:50:18.454Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ExperimentCorrectControlModule.cs",
+              "DocumentMoniker": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\ExperimentCorrectControlModule.cs",
+              "RelativeDocumentMoniker": "ExperimentCorrectControlModule.cs",
+              "ToolTip": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\ExperimentCorrectControlModule.cs",
+              "RelativeToolTip": "ExperimentCorrectControlModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T16:04:50.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExperimentForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\ExperimentForm.Designer.cs",
+              "RelativeDocumentMoniker": "ExperimentForm.Designer.cs",
+              "ToolTip": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\ExperimentForm.Designer.cs",
+              "RelativeToolTip": "ExperimentForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T19:32:31.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\MainForm.Designer.cs",
+              "RelativeToolTip": "MainForm.Designer.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAlwMgAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T19:29:01.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExperimentForm.cs",
+              "DocumentMoniker": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\ExperimentForm.cs",
+              "RelativeDocumentMoniker": "ExperimentForm.cs",
+              "ToolTip": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\ExperimentForm.cs",
+              "RelativeToolTip": "ExperimentForm.cs",
+              "ViewState": "AgIAADkBAAAAAAAAAAAAwEUBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:04:09.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExperimentForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\ExperimentForm.cs",
+              "RelativeDocumentMoniker": "ExperimentForm.cs",
+              "ToolTip": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\ExperimentForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "ExperimentForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T18:53:59.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\Settings.cs",
+              "RelativeDocumentMoniker": "Settings.cs",
+              "ToolTip": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\Settings.cs",
+              "RelativeToolTip": "Settings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T14:58:40.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\packages.config",
+              "RelativeDocumentMoniker": "packages.config",
+              "ToolTip": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\packages.config",
+              "RelativeToolTip": "packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-12T12:31:18.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReportExporter.cs",
+              "DocumentMoniker": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\ReportExporter.cs",
+              "RelativeDocumentMoniker": "ReportExporter.cs",
+              "ToolTip": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\ReportExporter.cs",
+              "RelativeToolTip": "ReportExporter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T10:04:18.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EfficiencyMetricsModule.cs",
+              "DocumentMoniker": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\EfficiencyMetricsModule.cs",
+              "RelativeDocumentMoniker": "EfficiencyMetricsModule.cs",
+              "ToolTip": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\EfficiencyMetricsModule.cs",
+              "RelativeToolTip": "EfficiencyMetricsModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T09:50:53.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\AdminForm.Designer.cs",
+              "RelativeDocumentMoniker": "AdminForm.Designer.cs",
+              "ToolTip": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\AdminForm.Designer.cs",
+              "RelativeToolTip": "AdminForm.Designer.cs",
+              "ViewState": "AgIAABIHAAAAAAAAAAAAAD8HAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:02:53.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PasswordManage.cs",
+              "DocumentMoniker": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\PasswordManage.cs",
+              "RelativeDocumentMoniker": "PasswordManage.cs",
+              "ToolTip": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\PasswordManage.cs",
+              "RelativeToolTip": "PasswordManage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T09:06:11.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EnterForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\EnterForm.Designer.cs",
+              "RelativeDocumentMoniker": "EnterForm.Designer.cs",
+              "ToolTip": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\EnterForm.Designer.cs",
+              "RelativeToolTip": "EnterForm.Designer.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowDcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T18:55:56.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-17T19:27:48.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VisualizationModule.cs",
+              "DocumentMoniker": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\VisualizationModule.cs",
+              "RelativeDocumentMoniker": "VisualizationModule.cs",
+              "ToolTip": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\VisualizationModule.cs",
+              "RelativeToolTip": "VisualizationModule.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwC4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T12:10:27.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminForm.cs",
+              "DocumentMoniker": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\AdminForm.cs",
+              "RelativeDocumentMoniker": "AdminForm.cs",
+              "ToolTip": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\AdminForm.cs",
+              "RelativeToolTip": "AdminForm.cs",
+              "ViewState": "AgIAAIkBAAAAAAAAAAAAAM8BAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T09:18:48.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\AdminForm.cs",
+              "RelativeDocumentMoniker": "AdminForm.cs",
+              "ToolTip": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\AdminForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "AdminForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T08:44:45.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CorrectControlModule.cs",
+              "DocumentMoniker": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\CorrectControlModule.cs",
+              "RelativeDocumentMoniker": "CorrectControlModule.cs",
+              "ToolTip": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\CorrectControlModule.cs",
+              "RelativeToolTip": "CorrectControlModule.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAAAL4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T08:44:39.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AgIAAAkBAAAAAAAAAAAEwBIBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T18:37:55.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MathModule.cs",
+              "DocumentMoniker": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\MathModule.cs",
+              "RelativeDocumentMoniker": "MathModule.cs",
+              "ToolTip": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\MathModule.cs",
+              "RelativeToolTip": "MathModule.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAA6wD8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:37:15.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T17:24:41.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T12:22:03.795Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnterForm.cs",
+              "DocumentMoniker": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\EnterForm.cs",
+              "RelativeDocumentMoniker": "EnterForm.cs",
+              "ToolTip": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\EnterForm.cs",
+              "RelativeToolTip": "EnterForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T12:05:03.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EnterForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\EnterForm.cs",
+              "RelativeDocumentMoniker": "EnterForm.cs",
+              "ToolTip": "C:\\Users\\420pr\\source\\repos\\\u0421hemical Complex\\EnterForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "EnterForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T12:03:12.872Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 634,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 591,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
